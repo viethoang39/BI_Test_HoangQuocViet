@@ -7,12 +7,12 @@ Nội dung bài làm tập trung vào việc phân tích dữ liệu trải nghi
 ## 2. Tech Stack sử dụng
 Dựa trên yêu cầu, tech stack được lựa chọn để thực hiện bài test bao gồm:
 
-*   **Database Engine**: **Databricks (Spark SQL)** (Đây là công cụ xử lý chính).
+*   **Database Engine**: **Databricks (SQL)** (Đây là công cụ xử lý chính).
 *   **Ngôn ngữ**:
-    *   **SQL (Spark SQL Dialect)**: Sử dụng cho phần lớn các tác vụ: làm sạch dữ liệu (Data Cleaning), chuẩn hóa văn bản (Text normalization), tính toán chỉ số (Metrics calculation) và phát hiện bất thường (Anomaly detection).
+    *   **SQL**: Sử dụng cho phần lớn các tác vụ: làm sạch dữ liệu (Data Cleaning), chuẩn hóa văn bản (Text normalization), tính toán chỉ số (Metrics calculation) và phát hiện bất thường (Anomaly detection).
     *   **Python (Jupyter Notebook)**: Sử dụng cho task trích xuất từ khóa (Keyword Extraction) và kiểm tra kết quả Visualizations.
 *   **Design & Automation**:
-    *   **Workflow Design**: Mô hình hóa quy trình tự động trên lý thuyết (dựa trên n8n/Make).
+    *   **Workflow Design**: Mô hình hóa quy trình tự động trên lý thuyết (dựa trên Power Automate/n8n).
     *   **Dashboard Mockup**: Thiết kế layout báo cáo cho Power BI.
 
 ## 3. Cấu trúc thư mục
