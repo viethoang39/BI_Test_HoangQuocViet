@@ -72,7 +72,7 @@ Xây dựng 2 quy trình tự động hóa nhằm chuyển đổi từ "Insight"
     *   **AI Engine**: **Google Gemini AI** (thông qua n8n AI Node) để phân tích sentiment và extract tag từ text tiếng Việt.
     *   **Integration**:
         *   *HTTP Request (GET)*: Gọi API Databricks SQL để lấy đơn hủy mới trong ngày.
-        *   *HTTP Request (POST)*: Gọi API CRM để update tag cho từng đơn hàng (Loop).
+        *   *HTTP Request (POST)*: Gọi API CRM để update tag cho từng đơn hàng (Loop) (Giả định Backend của CRM là databricks).
         *   *Google Chat/Slack*: Gửi thông báo hoàn tất job.
 
 ### Phần 3: BI Insights & Dashboard
