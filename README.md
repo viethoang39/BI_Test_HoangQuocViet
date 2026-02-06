@@ -1,4 +1,4 @@
-# BI Test - Hoang Quoc Viet
+# BI Toolset Test
 
 ## 1. Giới thiệu
 File này là kết quả thực hiện cho bài test **BI Toolset - TAKE-HOME ASSIGNMENT**. 
